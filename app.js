@@ -63,7 +63,6 @@ const app = express();
 // 🔹 CORS setup for frontend
 
 const allowedOrigins = [
-  "http://localhost:3000",
   "https://presonal-ai-chatbot.vercel.app"
 ]
 app.use(
